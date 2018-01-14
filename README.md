@@ -1,0 +1,1 @@
+Excercices from java script
