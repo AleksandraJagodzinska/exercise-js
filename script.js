@@ -23,11 +23,18 @@
 // car1.makeSound()
 
 
-function Car(color, year){
-    this.color = color;
-    this.year = year
-}
-Car.prototype.makeSound=function(){console.log("wrrr2")};
-
-var car2 = new Car('green',1995)
-car2.makeSound()
+// function returnFullName (name, surname) {return name + '_' + surname}
+//
+// console.log(returnFullName('Aleksandra', 'Jagodzińska'))
+//
+// var returnFullNameSecond = function(name, surname)
+// {return name + '_'+ surname }
+//
+// console.log(returnFullNameSecond("Natalia","Pilewska"))
+//
+//
+// const returnFullName3=(name,surname) => {
+//      name + '_' + surname
+// }
+//
+// console.log(returnFullName3("Iwona", "Iksińska"))
