@@ -38,3 +38,42 @@
 // }
 //
 // console.log(returnFullName3("Iwona", "Iksińska"))
+
+
+//
+//  function Car (color,year) {
+//      this.color = color;
+//      this.year = year;
+//  }
+//
+// Car.prototype.sound = function(){
+//         console.log("Wrr")
+//     }
+
+
+
+
+
+class Car {
+        constructor(color,year){
+            this.color = color;
+            this.year = year;
+        }
+        sound(){
+            console.log(s)
+        }
+}
+
+var seat = new Car("blue,1887")
+console.log(seat)
+
+class SportCar extends Car{
+    constructor(power){
+        super("black",2010)
+        this.power = power
+    }
+}
+
+const toyota = new SportCar('300 koni')
+
+console.log(toyota)
